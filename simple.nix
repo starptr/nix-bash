@@ -5,6 +5,6 @@ derivation {
   args = [ ./builder.sh ];
   inherit coreutils;
   system = builtins.currentSystem;
-  runner = ./runner.sh;
-  bashrc = ./rcfile.sh;
+  runner = ./runner;
+  bashrc = ./rcfile;
 }
